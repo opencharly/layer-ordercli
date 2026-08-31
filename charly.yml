@@ -1,7 +1,7 @@
 version: 2026.232.0520
 ordercli:
     candy:
-        version: 2026.144.1443
+        version: 2026.243.0100
         description: |
             Foodora/Deliveroo/Glovo food-delivery order status from the command line via the ordercli binary.
             Installs the steipete/ordercli Go binary into ${HOME}/go/bin with
@@ -11,7 +11,7 @@ ordercli:
             run with --help; a live order-status query needs Foodora auth and is
             genuinely free-form (agent-graded).
         require:
-            - '@github.com/opencharly/layer-golang:v2026.235.2057'
+            - '@github.com/opencharly/layer-golang:v2026.239.1614'
         env:
             GOPATH: "~/go"
         path_append:
