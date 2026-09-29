@@ -4,7 +4,7 @@ Standalone candy repo for the `ordercli` layer — a Go CLI for food-delivery
 order status (Foodora, Deliveroo, Glovo), installed with `go install`. The candy
 lives in `charly.yml` at the repo root: the `require:` on `layer-golang`, the
 `env:`/`path_append:` declarations, the `run:` install step, the `plan:`
-checks, and the embedded `skill:` entity projected into the marketplace corpus
+checks, and the embedded `skill:` entity (the `ordercli-skill:` node) projected into the marketplace corpus
 as `/charly-tools:ordercli`.
 
 Canonical files:
