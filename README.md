@@ -27,6 +27,7 @@ Compose the layer in a box's `candy:` list:
 ```yaml
 my-box:
   candy:
+    # the named box's value is the box BODY; `base:` and the `candy:` list are its keys
     base: fedora
     candy:
       - '@github.com/opencharly/layer-ordercli:v2026.243.0409'
