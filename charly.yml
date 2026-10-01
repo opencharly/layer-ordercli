@@ -9,7 +9,7 @@ ordercli:
             run with --help; a live order-status query needs Foodora auth and is
             genuinely free-form (agent-graded).
         require:
-            - '@github.com/opencharly/layer-golang:v2026.239.1614'
+            - '@github.com/opencharly/layer-golang:v2026.272.0137'
         env:
             GOPATH: "~/go"
         path_append:
