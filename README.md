@@ -51,5 +51,4 @@ charly shell my-box -c "ordercli --help"
 
 - Owning skill: `/charly-tools:ordercli` — the Foodora order-status CLI.
 - Build dependency: `/charly-coder:golang`.
-- Composed by: `/charly-openclaw:openclaw-full`.
 - [`opencharly/opencharly](https://github.com/opencharly/opencharly) — the umbrella.
